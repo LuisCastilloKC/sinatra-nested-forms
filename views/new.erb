@@ -1,0 +1,41 @@
+<form class='row g-3' method='POST' action='/pirates'>
+  <div class="col-4">
+    <label for="pirate-name" class="form-label">Pirate Name</label>
+    <input type="text" class="form-control" id="pirate-name" name="pirate[name]">
+  </div>
+  <div class="col-4">
+    <label for="pirate-weight" class="form-label">Pirate Weight</label>
+    <input type="text" class="form-control" id="pirate-weight" name="pirate[weight]">
+  </div>
+  <div class="col-4">
+    <label for="pirate-height" class="form-label">Pirate Height</label>
+    <input type="text" class="form-control" id="pirate-height" name="pirate[height]">
+  </div>
+  <div class="col-4">
+    <label for="ship_name_1" class="form-label">Ship Name</label>
+    <input type="text" class="form-control" id="ship_name_1" name="pirate[ships][][name]">
+  </div>
+  <div class="col-4">
+    <label for="ship_type_1" class="form-label">Ship Type</label>
+    <input type="text" class="form-control" id="ship_type_1" name="pirate[ships][][type]">
+  </div>
+  <div class="col-4">
+    <label for="ship_booty_1" class="form-label">Ship Booty</label>
+    <input type="text" class="form-control" id="ship_booty_1" name="pirate[ships][][booty]">
+  </div>
+  <div class="col-4">
+    <label for="ship_name_2" class="form-label">Ship Name</label>
+    <input type="text" class="form-control" id="ship_name_2" name="pirate[ships][][name]">
+  </div>
+  <div class="col-4">
+    <label for="ship_type_2" class="form-label">Ship Type</label>
+    <input type="text" class="form-control" id="ship_type_2" name="pirate[ships][][type]">
+  </div>
+  <div class="col-4">
+    <label for="ship_booty_2" class="form-label">Ship Booty</label>
+    <input type="text" class="form-control" id="ship_booty_2" name="pirate[ships][][booty]">
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
